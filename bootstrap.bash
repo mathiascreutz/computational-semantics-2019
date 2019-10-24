@@ -3,7 +3,7 @@
 cd /home/jovyan/
 
 rm -r work
-rm bootstrap.bash
+rm computational-semantics-2019/bootstrap.bash
 
 export GIT_COMMITTER_NAME=anonymous
 export GIT_COMMITTER_EMAIL=anon@localhost
