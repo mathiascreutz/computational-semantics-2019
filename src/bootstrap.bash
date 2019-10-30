@@ -10,7 +10,7 @@ export GIT_COMMITTER_EMAIL=anon@localhost
 git clone https://github.com/mathiascreutz/computational-semantics-2019.git
 
 pip install nltk
-python -c "import nltk; nltk.download(['gutenberg'])"
+python -c "import nltk; nltk.download(['brown', 'gutenberg', 'wordnet'])"
 
 #, 'genesis', 'treebank', 'nps_chat', 'inaugural', 'webtext', 'wordnet', 'punkt', 'averaged_perceptron_tagger', 'brown', 'tagsets'])"
 
